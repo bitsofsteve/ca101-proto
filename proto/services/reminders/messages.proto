@@ -33,6 +33,8 @@ message UpdateReminderResponse {}
 
 message DeleteReminderResponse {}
 
+message DeleteReminderResponseTest {}
+
 message GetUserRemindersResponse {
   repeated Reminder reminder = 1;
 }
