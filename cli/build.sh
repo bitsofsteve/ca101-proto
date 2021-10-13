@@ -5,7 +5,7 @@
 # Exit on error
 set -e
 
-SUPPORTED_LANGUAGES=("nodejs")
+SUPPORTED_LANGUAGES=("nodejs" "go")
 DOCKER_IMAGE=jozefcipa/protoc-
 GENERATED_BY=$(git remote get-url origin)
 
