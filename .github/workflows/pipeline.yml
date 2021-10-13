@@ -24,4 +24,4 @@ jobs:
       - name: Start build
         run: bash ./cli/build.sh
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_TOKEN: ${{ token.github }}
